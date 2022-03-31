@@ -17,7 +17,7 @@ This is a simple project showcasing different styles of 3D animation and design.
 
 ## Build Explanation
 
-To actually be able to display anything with THREE.js, we need three things: scene, camera and renderer, so that we can render the scene with the camera. For the camera, we are using a built in constructor function called `PerspectiveCamera()`. This projection mode is designed to mimic the way the human eye sees and is the most common projection mode used for rendering a 3D scene. Before we create the camera, we must first define the variables we will use to pass in as the parameters. See below:
+To actually be able to display anything with THREE.js, we need three things: scene, camera and renderer, so that we can render the scene with the camera. For the camera, we are using a built in constructor function called `PerspectiveCamera()`. This projection mode is designed to mimic the way the human eye sees and is the most common projection mode used for rendering a 3D scene. Before we create the camera, we first define the variables we will use to pass in as the parameters. See below:
 ```
 Constructor
 PerspectiveCamera( fov : Number, aspect : Number, near : Number, far : Number )
